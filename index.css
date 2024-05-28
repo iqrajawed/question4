@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(8, 36, 61);
+    display:flex ;
+    justify-content: center;
+    margin: 100px;
+}
+.mainbox
+{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(132, 175, 212);
+}
+.sale{
+    color:rgb(16, 61, 100);
+    text-align: center;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.box{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    color:#021325;
+    font: 1em serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+   
+}
+input{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(183, 186, 189);
+    color: rgb(7, 44, 68);
+    border-radius: 5px  ;
+    font-size: 30px;
+    text-align: center;
+}
